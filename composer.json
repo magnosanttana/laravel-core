@@ -1,0 +1,16 @@
+{
+    "name": "magnosanttana/laravel-core",
+    "description": "Meu primeiro pacote laravel ;)",
+    "authors": [
+        {
+            "name": "Magno Santtana",
+            "email": "magnosanttana@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": "./"
+        }
+    }
+}
