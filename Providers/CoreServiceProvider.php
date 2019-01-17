@@ -23,7 +23,11 @@ class CoreServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../Config/core.php' => config_path('core.php')
-        ]);
+        ], 'config');
+
+        $this->publishes([
+            __DIR__ . '/../Migrations/' => database_path('/migrations/tenant')
+        ], 'migrations');
 
     }
 
